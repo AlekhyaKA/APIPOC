@@ -14,4 +14,4 @@ jobs:
     steps:
     - name: REST API with curl
       run: |
-        https://api.github.com/repos/AlekhyaKA/APIPOC/collaborators
+        curl https://api.github.com/repos/AlekhyaKA/APIPOC/collaborators
